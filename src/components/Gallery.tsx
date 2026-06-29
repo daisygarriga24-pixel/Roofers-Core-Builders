@@ -8,6 +8,12 @@ import { motion, AnimatePresence } from "motion/react";
 import { animate } from "motion/react";
 import { Camera, ChevronsLeftRight } from "lucide-react";
 
+// Import images using ESM so Vite bundles them correctly in production
+import roofOneBefore from "../assets/images/roof_one_before_1782703256513.jpg";
+import roofOneAfter from "../assets/images/roof_one_after_1782703270009.jpg";
+import roofTwoBefore from "../assets/images/roof_two_before_1782703280805.jpg";
+import roofTwoAfter from "../assets/images/roof_two_after_1782703292881.jpg";
+
 interface BeforeAfterProps {
   before: string;
   after: string;
@@ -142,15 +148,15 @@ export default function Gallery() {
       id: 1,
       title: "Complete Roof Replacement",
       description: "Weathered roof transformed into a premium black architectural shingle system.",
-      before: "/src/assets/images/roof_one_before_1782703256513.jpg",
-      after: "/src/assets/images/roof_one_after_1782703270009.jpg"
+      before: roofOneBefore,
+      after: roofOneAfter
     },
     {
       id: 2,
       title: "New Construction Roofing",
       description: "Finished with a premium black architectural roof built for beauty and long-term durability.",
-      before: "/src/assets/images/roof_two_before_1782703280805.jpg",
-      after: "/src/assets/images/roof_two_after_1782703292881.jpg"
+      before: roofTwoBefore,
+      after: roofTwoAfter
     }
   ];
 
