@@ -1,0 +1,6 @@
+{
+  "name": "Roofers Core Builders",
+  "description": "Premium Florida roofing services specializing in roof replacement, storm damage repair, gutters, and honest estimates. Trusted local roofing contractors in Miami, Florida.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
